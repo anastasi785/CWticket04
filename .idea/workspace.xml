@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a557db52-e316-4cc8-a256-9597deecb30b" name="Changes" comment="fr" />
+    <list default="true" id="a557db52-e316-4cc8-a256-9597deecb30b" name="Changes" comment="fr7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +21,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="anastasi785" />
+        <option name="repository" value="CWticket04" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665430564977</updated>
-      <workItem from="1665430567451" duration="2770000" />
+      <workItem from="1665430567451" duration="3113000" />
     </task>
     <task id="LOCAL-00001" summary="fr">
       <created>1665433331605</created>
@@ -55,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665433331605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="frf">
+      <created>1665433423635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665433423635</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fr7">
+      <created>1665433686335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665433686335</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fr" />
-    <option name="LAST_COMMIT_MESSAGE" value="fr" />
+    <MESSAGE value="frf" />
+    <MESSAGE value="fr7" />
+    <option name="LAST_COMMIT_MESSAGE" value="fr7" />
   </component>
 </project>
