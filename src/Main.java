@@ -14,8 +14,8 @@ public class Main {
         array[4] = "910";
         array[5] = "12";
         array[6] = "34";
-        Object[] dist=removeDuplicates(array);
-        System.out.println(Arrays.toString(dist));
+        Object[] d=removeDuplicates(array);
+        System.out.println(Arrays.toString(d));
 
         }
 
