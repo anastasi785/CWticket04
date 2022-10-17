@@ -1,9 +1,22 @@
-import java.util.Arrays;
-
 public class Main {
-    public static Object[] removeDuplicates(String[]array){
-        return Arrays.stream(array).distinct().toArray();
-
+    private static final String[]stringWithoutDuplicates=new String[7];
+    public static String[] removeDuplicates(String[]array){
+        int k=0;
+        for (int i = 0; i < array.length; i++) {
+            String target=array[i];
+            boolean duplicateFound=false;
+            for (int j = i+1; j < array.length ; j++) {
+             if (target.equals(array[j]));{
+                 duplicateFound=true;
+                 break;
+                }
+            }
+            if(!duplicateFound){
+                stringWithoutDuplicates[k]=target;
+                k++;
+            }
+        }
+        return stringWithoutDuplicates;
     }
     public static void main(String[] args) {
         String[] array = new String[7];
@@ -14,11 +27,6 @@ public class Main {
         array[4] = "910";
         array[5] = "12";
         array[6] = "34";
-        Object[] d=removeDuplicates(array);
-        System.out.println(Arrays.toString(d));
-
+        System.out.println(removeDuplicates(array));
         }
-
         }
-
-
